@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="style.css">
+     <!-- <script src ="https://unpkg.com/feature-icons"></script> -->
     <title>RazorPay</title>
 </head>
 <body>
@@ -104,11 +105,11 @@
     </section>
 
   <!--features section-->
-    <section class ="relative mt-[190px] overflow-hidden">
-        <img src="./images/feature-section1-dottedrows.png" alt=""loading="lazy" 
-        width="233"
-        height="167"
-        class="absolute -top-[8rem] left-[10rem] inline-block ">
+  <section class="relative mt-[190px] overflow-hidden">
+    <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy" 
+    width="233"
+    height="167"
+    class="absolute -top-[8rem] left-[10rem] inline-block -z-10">
 
         <img src="./images/feature-section1-dottedrows.png" alt=""
         loading="lazy"
@@ -118,34 +119,40 @@
 
         <div class ="relative w-11/12 max-2-[1080px] mx-auto pt-4">
             <!--heading-->
-            <h2>Accept Payments with RazorPay Payment Suite</h2>
-            <div></div>
+            <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extabold">Accept Payments with RazorPay Payment Suite</h2>
+            <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
 
 
             <!--content-->
-            <div>
+            <div class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12 ">
                 <!--left-->
-                <div>
-                    <h3>Supercharge your business with the all -powerful
+                 <div class ="flex flex-col justify-between items-center w-full">
+                    <h3 class="font-mullish text-[28px] leading-10 font-extrabold max-w-[500px]">Supercharge your business with the all -powerful
                         <span class="text-lightBlue">Payment Gateway</span>
                     </h3>
-                    <ul>
-                        <li>
+                    <ul class="space-y-2">
+                        <li class="font-mullish flex items-center space-x-2 ">
+                            <i data-feather="check" class="text-greenLight"></i>
                             <span>100+ Payment Methods</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2 ">
+                            <i data-feather="check" class="text-greenLight"></i>
                             <span> Industry Leading Success Rate</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2 ">
+                            <i data-feather="check" class="text-greenLight"></i>
                             <span> Superior Chceckout Experience</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2 ">
+                            <i data-feather="check" class="text-greenLight"></i>
+    
                             <span> Easy to Integrate </span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2 ">
+                            <i data-feather="check" class="text-greenLight"></i>
                             <span> Instant Settlements from day1</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2 ">
                             <span>In-depth Reporting and Insights</span>
                         </li>
                     </ul>
@@ -168,7 +175,10 @@
 
     </section>
 
-
+    <script>
+        feather.replace();
+      </script>
 </body>
+
 </html>
  
