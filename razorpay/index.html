@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="style.css">
-     <!-- <script src ="https://unpkg.com/feature-icons"></script> -->
+     <script src="https://unpkg.com/feather-icons"></script>
     <title>RazorPay</title>
 </head>
 <body>
@@ -115,19 +115,19 @@
         loading="lazy"
         width="233"
         height="167"
-        class="absolute top-[3rem] right- 0 inline-block rotate-180">
+        class="absolute top-[3rem] right-0 inline-block rotate-180">
 
-        <div class ="relative w-11/12 max-2-[1080px] mx-auto pt-4">
+        <div class ="relative w-11/12 max-w-[1080px] mx-auto pt-4">
             <!--heading-->
             <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extabold">Accept Payments with RazorPay Payment Suite</h2>
             <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
 
 
             <!--content-->
-            <div class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12 ">
+            <div class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12 border">
                 <!--left-->
-                 <div class ="flex flex-col justify-between items-center w-full">
-                    <h3 class="font-mullish text-[28px] leading-10 font-extrabold max-w-[500px]">Supercharge your business with the all -powerful
+                 <div class ="flex flex-col justify-between  w-full">
+                    <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px]">Supercharge your business with the all -powerful
                         <span class="text-lightBlue">Payment Gateway</span>
                     </h3>
                     <ul class="space-y-2">
@@ -148,25 +148,34 @@
     
                             <span> Easy to Integrate </span>
                         </li>
-                        <li class="font-mullish flex items-center space-x-2 ">
+                        <li class="font-mullish flex items-center space-x-2">
                             <i data-feather="check" class="text-greenLight"></i>
                             <span> Instant Settlements from day1</span>
                         </li>
-                        <li class="font-mullish flex items-center space-x-2 ">
+                        <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight"></i>
                             <span>In-depth Reporting and Insights</span>
                         </li>
                     </ul>
                    <!-- for buttom and hyperlink-->
-                    <div>
-                        <button>Sign Up Now</button>
+                    <div class="flex flex-col-reverse md:flex-row items-center space-x-4  ">
+                        <button 
+                        class="bg-lightBlue w-full md:w-fit text-white py-[14px] px-[18px] rounded-md
+                        font-mullish font-bold hover:bg-lightBlue500 translate-all duration-200 "
+                        >Sign Up Now</button>
                         <!--hyperlink-->
-                        <div>
-                            <a href="">Know More</a>
+                        <div class="flex self-start md:items-center cursor-pointer group">
+                            <a href="#"
+                            class="font-mullish font-bold text-lightBlue500 group-hover:text-gray-50 transition-all duration-200"
+                            >Know More
+                        <i data-feather="chevron-right"
+                    class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i></a>
                             <i></i>
                         </div>
                     </div>
-
-                    <img src="./images/payment-suite.png" alt="">
+                    </div>
+                    <img src="./images/payment-suite.png" alt=""
+                    class="max-w-[400px] absolute-right-0 bottom-0 hidden md:max-w-[100px] lg:max-w-[600px] md:block lg:block">
                 </div>
             </div>
 
